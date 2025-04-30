@@ -11,11 +11,14 @@ Binary Classification: Classifies chest X-ray images into TB-positive or TB-nega
 
 Metrics: The model is evaluated using Sensitivity and Specificity metrics for better performance analysis in medical classification tasks.
 
-Dataset
-The dataset used for this project is named segmented-lung-dataset-for-tb-classification, which consists of two primary categories:
+  This project presents a two-stage deep learning pipeline for detecting tuberculosis (TB) from chest X-ray images:
 
-tb_positive
+Stage 1 – Lung Segmentation
+A custom segmentation model  isolates lung regions from the chest X-rays.
 
-tb_negative
+Stage 2 – Classification with ViT (Vision Transformer)
+The segmented lung images are passed to a Vision Transformer model built using PyTorch + TIMM to classify images into:
 
-Each category contains images of lung X-rays that have already been segmented to isolate the lung areas. The images are used for training and evaluating the ViT model.
+TB Positive
+
+TB Negative
