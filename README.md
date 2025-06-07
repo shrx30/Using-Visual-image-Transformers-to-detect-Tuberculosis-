@@ -37,9 +37,15 @@ We evaluate the results using a custom Grad cam which helps to locate the region
 This adds EXPLAINABILITY to our model and makes it very robust.
 
 
+ ----------VISUALISATION OF HEATMAPS--------------------
 
-The performace of the model is shown in the screenshot 573 png
-Gradcam heatmaps is shown in screenshot  574 & 575 png 
+
+The performace of the model is shown in the Screenshot (573).png
+
+
+Gradcam heatmaps is shown in Screenshot (574).png  and   Screenshot (575).png
+
+
 
 
 
